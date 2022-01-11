@@ -15,11 +15,16 @@
     <body>
         <div class="container">
         <form action="">
-            <h1>Payment Form</h1>
+
+        <div class="heading">
+            <h1 >Payment Form</h1>
+        </div>
+
+        <hr />
 
             <h2>Contact Information</h2>
 
-            <p>Name: <input type="text" name="name" required/></p>
+            <p>Name: <input type="text" name="name" placeholder="FirstName MiddleName Surname" required/></p>
 
             <fieldset>
                 <legend>Gender</legend>
@@ -32,11 +37,11 @@
             </p>
 
             <p>
-                Address: <textarea name="address" id="address" rows="5" cols="100" required></textarea>
+                Address: <textarea name="address" id="address" rows="5" cols="100" placeholder="Enter your address here..." required></textarea>
             </p>
 
             <p>
-                Email-Id: <input type="email" required/>
+                Email-Id: <input type="email" placeholder="xyz@gmail.com" required/>
             </p>
             <hr/>
             <h2>Payment Details</h2>
@@ -63,7 +68,7 @@
                 Expiry Date: <input type="date" name="expiry-date" id="expiry-date" required> 
             </p>
 
-            <button type="submit">Pay Now</button>
+            <button class="submit" type="submit">Pay Now</button>
             
         </div>
         </form>
